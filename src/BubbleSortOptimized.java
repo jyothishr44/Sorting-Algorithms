@@ -13,8 +13,7 @@ public class BubbleSortOptimized
             swapped = false;
             for(var j=0;j<n-i-1;++j)
             {
-                if(nums[j]>nums[j+1])
-                {
+                if(nums[j]>nums[j+1]) {
                     var temp = nums[j];
                     nums[j] = nums[j+1];
                     nums[j+1] = temp;
